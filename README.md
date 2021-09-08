@@ -15,7 +15,7 @@ Here you will find (i) code to apply the algorithm we designed on your data (ii)
 
 ## Ideology2vec tool
 
-In [`ideology2vec.py`](ideology2vec.py), we provide a Python module to use our algorithm on your data. It requires `tqdm`(https://github.com/tqdm/tqdm) and `tensorflow`(https://github.com/tensorflow/tensorflow/).
+In [`ideology2vec.py`](ideology2vec.py), we provide a Python module to use our algorithm on your data. It requires [tqdm](https://github.com/tqdm/tqdm) and [Tensorflow](https://github.com/tensorflow/tensorflow/).
 
 This module contains a function called `compute_ideological_embeddings` that turns propagations of items with known topics on a graph into multidimensional polarities for the nodes of the graph. To understand the details, consult the documentation of the function or the [`ideology2vec-example.ipynb`](ideology2vec-example.ipynb) notebook, that contains a toy example for its usage.
 
